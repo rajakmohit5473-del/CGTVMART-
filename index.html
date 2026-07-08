@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CGTVMart</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>CGTVMart</h1>
+
+<a href="cart.html">
+🛒 Cart
+</a>
+
+</header>
+
+
+<input 
+class="search" 
+id="searchBox" 
+type="text" 
+placeholder="Search Products..."
+onkeyup="searchProduct()"
+>
+
+
+<div class="banner">
+
+<h2>Welcome to CGTVMart</h2>
+
+<p>Everything You Need In One Place</p>
+
+</div>
+
+
+
+<h2>Categories</h2>
+
+<div class="category">
+
+<div class="box">👕 Clothes</div>
+<div class="box">🧸 Toys</div>
+<div class="box">💪 Gym Diet</div>
+<div class="box">📱 Electronics</div>
+<div class="box">💄 Beauty</div>
+<div class="box">🍔 Food</div>
+
+</div>
+
+
+
+<h2>Featured Products</h2>
+
+
+<div class="category">
+
+
+<div class="box product">
+
+<img src="Images/tshirt.jpg">
+
+<h3>T-Shirt</h3>
+
+<p>₹499</p>
+
+<button onclick="addToCart('T-Shirt',499)">
+Add to Cart
+</button>
+
+</div>
+
+
+
+
+<div class="box product">
+
+<img src="Images/Protein.jpg">
+
+<h3>Protein Powder</h3>
+
+<p>₹1999</p>
+
+<button onclick="addToCart('Protein Powder',1999)">
+Add to Cart
+</button>
+
+</div>
+
+
+
+
+<div class="box product">
+
+<img src="Images/Car.jpg">
+
+<h3>Remote Car</h3>
+
+<p>₹999</p>
+
+<button onclick="addToCart('Remote Car',999)">
+Add to Cart
+</button>
+
+</div>
+
+
+
+
+<div class="box product">
+
+<img src="Images/Facewash.jpg">
+
+<h3>Face Wash</h3>
+
+<p>₹299</p>
+
+<button onclick="addToCart('Face Wash',299)">
+Add to Cart
+</button>
+
+</div>
+
+
+</div>
+
+
+
+<script src="cart.js"></script>
+
+
+</body>
+</html>
